@@ -37,7 +37,7 @@ webbrowser.open_new_tab(new_url)
 print("Hold on! It's your browser taking time.....")
 
 
-saveFile =  open('songs.txt')
+saveFile =  open('video_list.txt')
 
 lines = saveFile.readlines()
 lines = [x.strip() for x in lines]
