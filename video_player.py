@@ -50,7 +50,7 @@ for line in lines:
 		break
 
 if ctr == True:
-	saveFile = open('songs.txt','a')
+	saveFile = open('video_list.txt','a')
 	saveFile.write('\n'+text)
 
 saveFile.close()
